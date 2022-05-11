@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "CursiveSL";
+    src: url("../ASSETS/fonts/Cursif-BLKG.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#6a6a6a 50%, white 50%) fixed;
+    min-height: 100vh;
+}
+.fiche{
+    max-width: 90%;
+    margin: 5rem;
+    width: 60rem;
+    background-color: white;
+    box-shadow: #6A6A6A 0rem 0rem 1rem;
+}
+.fiche-title{
+    color: #D85856;
+    margin: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'CursiveSL', cursive;
+}
+.fiche-title-sep{
+    color: #95C595;
+    font-size: 1.8rem;
+    margin: 1rem;
+    text-decoration: underline;
+    font-family: 'CursiveSL', cursive;
+}
+.fiche-text{
+    line-height: 4rem;
+    font-size: 1.6rem;
+    margin: 1rem;
+    font-family: 'CursiveSL', cursive;
+}
+@media (max-width : 600px) {
+    :root{
+        font-size: 8px;
+    }
+}
+@media (max-width : 500px) {
+    :root{
+        font-size: 6px;
+    }
+}
+@media (max-width : 400px) {
+    :root{
+        font-size: 5px;
+    }
+}
+@media (max-width : 300px) {
+    :root{
+        font-size: 4px;
+    }
+}
